@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bebas Neue", cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+nav ul li a {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.circle {
+  height: 450px;
+  width: 450px;
+  background-color: #3498db;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
