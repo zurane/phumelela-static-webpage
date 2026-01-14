@@ -42,6 +42,7 @@
     </header>
 
     <main>
+       
         <section class="max-w-7xl mx-auto my-10 px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 justify-between align-center my-2 gap-4 border-b py-5 md:py-10">
                 <h2 class="text-5xl">What we do</h2>
@@ -137,30 +138,35 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-7xl mx-auto px-4 my-10">
-            <div class="grid md:grid-cols-2 gap-6 items-center py-20">
+
+        <section class="bg-blue-100">
+            <div class="max-w-7xl mx-auto px-4 py-10">
+                <div class="grid md:grid-cols-2 gap-6 items-center py-10">
                 <div>
+                    <img src="/assets/images/frank.jpg" alt="Contact us illustration">
                 </div>
                 <div class="flex flex-col">
+                     <p class="text-2xl md:text-3xl tracking-tight mb-6">Have questions or want to get involved? Reach out
+                        to us!</p>
                     <form action="https://formspree.io/f/mnjjnavo" method="POST">
                         <label class="block mb-4">
                             Full names
-                            <input class="block w-full py-3 border-b outline-none bg-transparent" type="text"
+                            <input class="block w-full py-3 border-b border-zinc-500 outline-none bg-transparent" type="text"
                                 name="name" required>
                         </label>
                         <label class="block mb-4">
                             Email address
-                            <input class="block w-full py-3 border-b outline-none bg-transparent" type="email"
+                            <input class="block w-full py-3 border-b border-zinc-500 outline-none bg-transparent" type="email"
                                 name="email">
                         </label>
                         <label class="block mb-4">
                             Contact number
-                            <input class="block w-full py-3 border-b outline-none bg-transparent text-zinc-400"  type="tel"
+                            <input class="block w-full py-3 border-b border-zinc-500 outline-none bg-transparent text-zinc-400"  type="tel"
                                 name="phone">
                         </label>
                         <label>
                             State your interest
-                            <select class="block w-full border-b py-5 px-0 text-gray-400 bg-transparent outline-none mb-4 my-4" name="interest">
+                            <select class="block w-full border-b border-zinc-500 py-5 px-0 text-gray-400 bg-transparent outline-none mb-4 my-4" name="interest">
                                 <option value="volunteering">Volunteering</option>
                                 <option value="donations">Donations</option>
                                 <option value="partnerships">Partnerships</option>
@@ -171,15 +177,17 @@
                         </label>
                         <label class="block my-4">
                             Your message
-                            <textarea class="block w-full py-3 border-b outline-none bg-transparent"
+                            <textarea class="block w-full py-3 border-b border-zinc-500 outline-none bg-transparent"
                                 name="message"></textarea>
                         </label>
                         <!-- your other form fields go here -->
-                        <button type="submit">Send</button>
+                        <button class="inline-block font-semibold text-md border border-black px-6 py-3 mt-2" type="submit">Send your enquiry</button>
                     </form>
                 </div>
             </div>
             </div>
+            
+        </section>
     </main>
 
     <footer class="bg-[#010312] text-white">
