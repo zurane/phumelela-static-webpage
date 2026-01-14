@@ -40,6 +40,7 @@
         </div>
         </div>
     </header>
+
     <main>
         <section class="max-w-7xl mx-auto my-10 px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 justify-between align-center my-2 gap-4 border-b py-5 md:py-10">
@@ -83,7 +84,7 @@
             </div>
         </section>
 
-        <section class="bg-blue-100">
+        <section class="bg-zinc-900">
             <div class="max-w-7xl mx-auto  py-20 px-4">
                 <div class="grid md:grid-cols-2">
                     <div class="w-full h-full bg-white p-10 flex flex-col justify-center">
@@ -101,8 +102,8 @@
                         </div>
                     </div>
                     <div class="">
-                        <img  src="/assets/images/three-boys-walking-through-field.webp"
-                            loading="lazy" alt="three boys walking through a field">
+                        <img src="/assets/images/three-boys-walking-through-field.webp" loading="lazy"
+                            alt="three boys walking through a field">
                     </div>
                 </div>
 
@@ -115,27 +116,70 @@
                     <h2 class="text-3xl border-b pb-5 mb-5">Meet Our Team</h2>
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-3 ">
                         <div>
-                            <img class="rounded-md" src="/assets/images/www.jpg" loading="lazy" alt="">
+                            <img class="rounded-md" src="/assets/images/frank.jpg" loading="lazy" alt="">
                             <p class="pt-3 uppercase text-md"><b>Lunga Nkosi</b> </p>
                             <span class="text-gray-500"> Chairman</span>
                         </div>
                         <div>
-                            <img class="rounded-md" src="/assets/images/www.jpg" loading="lazy" alt="">
+                            <img class="rounded-md" src="/assets/images/mae.jpg" loading="lazy" alt="">
                             <p class="pt-3 uppercase text-md"><b>Nkosinathi Bala</b> </p>
                             <span class="text-gray-500">
-                                    Secretary</span>
+                                Secretary</span>
                         </div>
                         <div>
-                            <img class="rounded-md" src="/assets/images/www.jpg" loading="lazy" alt="">
-                            <p class="pt-3 uppercase text-md"><b>Sibusiso Mbatha</b> <br/></p>
-                            <span class="text-gray-500"> 
-                                    Treasurer</span>
+                            <img class="rounded-md" src="/assets/images/mrsnaidoo.jpg" loading="lazy" alt="">
+                            <p class="pt-3 uppercase text-md"><b>Sibusiso Mbatha</b> <br /></p>
+                            <span class="text-gray-500">
+                                Treasurer</span>
                         </div>
 
                     </div>
                 </div>
             </div>
         </section>
+        <section class="max-w-7xl mx-auto px-4 my-10">
+            <div class="grid md:grid-cols-2 gap-6 items-center py-20">
+                <div>
+                </div>
+                <div class="flex flex-col">
+                    <form action="https://formspree.io/f/mnjjnavo" method="POST">
+                        <label class="block mb-4">
+                            Full names
+                            <input class="block w-full py-3 border-b outline-none bg-transparent" type="text"
+                                name="name" required>
+                        </label>
+                        <label class="block mb-4">
+                            Email address
+                            <input class="block w-full py-3 border-b outline-none bg-transparent" type="email"
+                                name="email">
+                        </label>
+                        <label class="block mb-4">
+                            Contact number
+                            <input class="block w-full py-3 border-b outline-none bg-transparent text-zinc-400"  type="tel"
+                                name="phone">
+                        </label>
+                        <label>
+                            State your interest
+                            <select class="block w-full border-b py-5 px-0 text-gray-400 bg-transparent outline-none mb-4 my-4" name="interest">
+                                <option value="volunteering">Volunteering</option>
+                                <option value="donations">Donations</option>
+                                <option value="partnerships">Partnerships</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </label>
+
+                        </label>
+                        <label class="block my-4">
+                            Your message
+                            <textarea class="block w-full py-3 border-b outline-none bg-transparent"
+                                name="message"></textarea>
+                        </label>
+                        <!-- your other form fields go here -->
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+            </div>
     </main>
 
     <footer class="bg-[#010312] text-white">
