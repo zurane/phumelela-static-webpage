@@ -12,15 +12,11 @@
 
 <body>
 
-    <header class="md:p-4 bg-gray-100 pb-20 h-full">
-
-
-
-
+    <header class="md:p-4 bg-gray-100 pb-20 h-screen">
         <div>
             <nav class="flex justify-between items-center p-4 md:max-w-7xl md:mx-auto">
                 <a href="/">
-                    <img class="w-26 md:w-full"  src="/assets/images/footer-logo.svg" alt="Phumela Logo">
+                    <img class="w-26 md:w-full" src="/assets/images/footer-logo.svg" alt="Phumela Logo">
                 </a>
 
                 <ul class="hidden md:block">
@@ -60,7 +56,7 @@
         </div>
 
 
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 mt-10 p-4">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 px-4 pt-12">
             <div class="w-full flex flex-col justify-center">
                 <h1 class="text-3xl font-semibold md:font-bold md:w-3/4 md:text-5xl">Phumelela is a non-profit
                     organization that aims to provide
@@ -71,7 +67,7 @@
                     </button></div>
             </div>
             <div class="w-full">
-                <img class="rounded-sm" src="/assets/images/side-image-hero.png" loading="eager"
+                <img class="rounded-sm" src="/assets/images/side-image-hero.png"  fetchpriority="high"
                     alt="Placeholder Image">
             </div>
         </div>
@@ -80,10 +76,10 @@
 
     <main>
 
-        <section class="max-w-7xl mx-auto my-10 px-4">
+        <section class="max-w-7xl mx-auto my-10 px-4 pb-10">
             <div class="grid grid-cols-1 md:grid-cols-2 justify-between align-center my-2 gap-4 border-b py-5 md:py-10">
                 <h2 class="text-3xl md:text-4xl">What we do</h2>
-                <p class="text-lg md:text-3xl tracking-tight">Phumelela Foundation is active around the world, using
+                <p class="text-lg md:text-2xl tracking-tight">Phumelela Foundation is active around the world, using
                     grant giving
                     research, advocacy,
                     impact investment, and strategic litigation to build a future where everyone can live with rights
@@ -95,61 +91,57 @@
                         <p class="text-2xl font-semibold tracking-tight">Educational Resources</p>
                         <div class="py-3"> <img class="rounded-md" src="/assets/images/kid-with-a-book.webp"
                                 loading="lazy" alt="A young boy reading"></div>
-                        <p class="mt-2 tracking-tight">We provide books, learning materials, and digital resources to
+                        <p class="mt-2 tracking-tight text-lg">We provide books, learning materials, and digital
+                            resources to
                             support children's education.</p>
-                        <div class="my-4"><a href="#" class="text-yellow-500 bg-yellow-100 p-2 hover:underline">Learn
-                                more</a></div>
                     </div>
                     <div class="border-b pb-5">
                         <p class="text-2xl font-semibold tracking-tight">Life Skills</p>
                         <div class="py-3"><img class="rounded-md" loading="lazy" src="/assets/images/Middle-Image.webp"
                                 alt="Kid taught how to paint"></div>
-                        <p class="mt-2 tracking-tight">We offer workshops and training programs to help children develop
+                        <p class="mt-2 tracking-tight text-lg">We offer workshops and training programs to help children
+                            develop
                             essential life skills.</p>
-                        <div class="my-4"><a href="#" class="text-orange-500 bg-orange-100 p-2 hover:underline">Learn
-                                more</a></div>
                     </div>
                     <div class="border-b pb-5">
                         <p class="text-2xl font-semibold tracking-tight">Recreational Support</p>
                         <div class="py-3"><img class="rounded-md" loading="lazy"
                                 src="/assets/images/palying-soccer.webp" alt="Kids playing soccer"></div>
-                        <p class="mt-2 tracking-tight">We organize sports, arts, and cultural activities to promote
+                        <p class="mt-2 tracking-tight text-lg">We organize sports, arts, and cultural activities to
+                            promote
                             holistic development.</p>
-                        <div class="my-4"><a href="#" class="text-indigo-500 bg-indigo-100 p-2 hover:underline">Learn
-                                more</a></div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg-zinc-900">
-            <div class="max-w-7xl mx-auto  py-20 px-4">
+        <section class="bg-[url('/assets/images/cta-mission-img.jpg')] bg-cover bg-right md:h-[700px]">
+            <div class="max-w-7xl mx-auto py-20 px-4">
                 <div class="grid md:grid-cols-2">
-                    <div class="w-full h-full bg-white p-8 flex flex-col justify-center">
-                        <span class="uppercase text-xs ">Our mission</span>
-                        <p class="text-lg md:text-3xl tracking-tight mt-5 font-medium">
-                            To support children from under-resourced communities by providing the care, guidance, and
-                            opportunities they need to achieve their full potential.
-                        </p>
+                    <div class="w-full md:h-[650px] bg-[#010312] p-12 flex flex-col justify-center">
+                        <span class="uppercase text-xs text-white">— Our mission</span>
+                        <h2 class="text-5xl md:text-7xl text-white  mt-5 font-medium">
+                            To enable every child to reach their full human potential.
+                        </h2>
                         <div class="mt-6">
-                            <button href="#"
-                                class="inline-block font-semibold text-md bg-orange-600 text-white px-6 py-3 hover:bg-orange-700">
-                                <p>Get Involved</p>
-                            </button>
+                            <a href="/"
+                                class="inline-block font-semibold text-md bg-[#ff452b] text-white px-6 py-3 hover:bg-orange-700">
+                                Get Involved
+                            </a>
 
                         </div>
                     </div>
-                    <div class="">
+                    <!-- <div class="">
                         <img src="/assets/images/three-boys-walking-through-field.webp" loading="lazy"
                             alt="three boys walking through a field">
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
         </section>
 
         <section class="h-full bg-[#F9F9F9]">
-            <div class="max-w-7xl mx-auto px-4">
+            <div class="max-w-7xl mx-auto px-4 md:pt-[80px]">
                 <div class="py-10 md:pb-20">
                     <h2 class="text-3xl border-b pb-5 mb-5">Meet Our Team</h2>
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-3 ">
@@ -251,8 +243,10 @@
                     <div>
                         <h3 class="text-xl mb-4 tracking-wide">Resources</h3>
                         <ul class="text-xs">
-                            <li class="mb-3"><a href="/assets/documents/NPO-Constitution-PHUMELELA NPO.pdf" class="hover:border-b pb-1">Phumelela Constitution</a></li>
-                            <li class="mb-3"><a href="/assets/documents/Phumelela NPO_Certificate.pdf" target="_blank" class="hover:border-b pb-1">NPO Compliant Certificate</a></li>
+                            <li class="mb-3"><a href="/assets/documents/NPO-Constitution-PHUMELELA NPO.pdf"
+                                    class="hover:border-b pb-1">Phumelela Constitution</a></li>
+                            <li class="mb-3"><a href="/assets/documents/Phumelela NPO_Certificate.pdf" target="_blank"
+                                    class="hover:border-b pb-1">NPO Compliant Certificate</a></li>
                             <li class="mb-3"><a href="#" class="hover:border-b pb-1">Code of conduct</a></li>
                             <li class="mb-3"><a href="#" class="hover:border-b pb-1">Donation Policy</a></li>
                         </ul>
